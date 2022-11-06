@@ -43,7 +43,7 @@ public:
     operator string() const;
 
     size_t size() const;
-
+    void realloc(long long int size);
     size_t index;
     bool sign;
     unsigned int *data;
